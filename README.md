@@ -11,11 +11,7 @@ On the index.js page run node index.js and the generator will activate asking qu
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+Heres the link with the README Generator walkthrough video 
+ 
+ https://youtu.be/t4U1FnCtSOY
 
