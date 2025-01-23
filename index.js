@@ -1,8 +1,4 @@
 // TODO: Include packages needed for this application
-// const fs = require("fs");
-// const inquirer = require("inquirer");
-// const path = require ("path");
-// const generateMarkdown = require("./utils/generateMarkdown");
 import inquirer from 'inquirer';
 import fs from 'fs';
 import path from 'path';
@@ -26,16 +22,6 @@ const questions = [
         name: 'license',
         message: 'Please select a license applicable to this project.',
         choices: ['MIT', 'APACHE2.0', 'Boost1.0', 'MPL2.0', 'BSD2', 'BSD3', 'NONE'],
-      },
-      {
-        type: 'input',
-        name: 'require',
-        message: 'List any project dependencies here.',
-      },
-      {
-        type: 'input',
-        name: 'usage',
-        message: 'State the languages or technologies associated witht his project.',
       },
       {
         type: 'input',
@@ -65,12 +51,7 @@ const questions = [
       },
 ];
 
-//  // Path to save the README file
-//  const filePath = path.join(process.cwd(), 'README.md');
 
-//  // Write the content to a README.md file
-//  fs.writeFileSync(filePath, generateMarkdown, 'utf8');
-//  console.log('README.md file has been generated successfully!');
 
 
 // TODO: Create a function to write README file
